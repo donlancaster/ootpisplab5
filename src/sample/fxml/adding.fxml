@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.AddingController">
+   <children>
+      <ComboBox fx:id="chooseTypeBox" layoutX="14.0" layoutY="14.0" prefWidth="150.0" />
+      <TextField fx:id="nameAddField" layoutX="239.0" layoutY="14.0" promptText="name" />
+      <TextField fx:id="sizeAddField" layoutX="239.0" layoutY="41.0" promptText="size" />
+      <TextField fx:id="massAddField" layoutX="239.0" layoutY="68.0" promptText="mass" />
+      <TextField fx:id="formAddField" layoutX="239.0" layoutY="95.0" promptText="form" />
+      <Button fx:id="addButton" layoutX="239.0" layoutY="341.0" mnemonicParsing="false" onAction="#add" prefHeight="25.0" prefWidth="50.0" text="add" />
+      <Button fx:id="cancelButton" layoutX="325.0" layoutY="341.0" mnemonicParsing="false" onAction="#cancel" text="cancel" />
+      <TextField fx:id="rotSpeedAddField" layoutX="15.0" layoutY="138.0" promptText="roration speed" />
+      <TextField fx:id="colorAddField" layoutX="15.0" layoutY="163.0" promptText="color" />
+      <TextField fx:id="structureAddField" layoutX="15.0" layoutY="188.0" promptText="structure" />
+      <TextField layoutX="15.0" layoutY="213.0" promptText="xray" fx:id="xrayAddField" />
+      <TextField fx:id="luminosityAddField" layoutX="15.0" layoutY="238.0" promptText="luminosity" />
+      <TextField fx:id="evaporationAddField" layoutX="15.0" layoutY="263.0" promptText="evaporation" />
+      <TextField fx:id="ehRadiusAddField" layoutX="15.0" layoutY="288.0" promptText="event horizont radius" />
+      <TextField fx:id="galgxyTypeField" layoutX="215.0" layoutY="138.0" promptText="galaxy type" />
+      <TextField fx:id="elementsAddField" layoutX="215.0" layoutY="163.0" promptText="elements" />
+      <ComboBox fx:id="bhAddBox" layoutX="214.0" layoutY="188.0" prefWidth="150.0" />
+      <TextField fx:id="structureGarbageAddField" layoutX="402.0" layoutY="138.0" promptText="structure gar" />
+      <TextField fx:id="quantityAddField" layoutX="402.0" layoutY="163.0" promptText="quantity" />
+      <TextField fx:id="tailLengthAddField" layoutX="402.0" layoutY="188.0" promptText="tail length" />
+   </children>
+</AnchorPane>

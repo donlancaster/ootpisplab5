@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.LinkedList">
+  <void method="add">
+   <object class="sample.hierarchy.Galaxy">
+    <void property="centerBlackHole">
+     <object class="sample.hierarchy.BlackHole">
+      <void property="color">
+       <string>red</string>
+      </void>
+      <void property="evaporation">
+       <double>123.0</double>
+      </void>
+      <void property="eventHorizonRadius">
+       <double>100.0</double>
+      </void>
+      <void property="form">
+       <string>form</string>
+      </void>
+      <void property="luminosity">
+       <double>15.0</double>
+      </void>
+      <void property="mass">
+       <double>123.0</double>
+      </void>
+      <void property="name">
+       <string>anme</string>
+      </void>
+      <void property="rotationSpeed">
+       <double>123.0</double>
+      </void>
+      <void property="size">
+       <double>123.0</double>
+      </void>
+      <void property="structure">
+       <string>structure</string>
+      </void>
+      <void property="xrayCoefficient">
+       <double>12.0</double>
+      </void>
+     </object>
+    </void>
+    <void property="elements">
+     <int>123</int>
+    </void>
+    <void property="form">
+     <string>123</string>
+    </void>
+    <void property="galaxyType">
+     <string>typeee</string>
+    </void>
+    <void property="mass">
+     <double>123.0</double>
+    </void>
+    <void property="name">
+     <string>1</string>
+    </void>
+    <void property="size">
+     <double>1.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="sample.hierarchy.Galaxy">
+    <void property="centerBlackHole">
+     <object class="sample.hierarchy.BlackHole" id="BlackHole0">
+      <void property="color">
+       <string>red</string>
+      </void>
+      <void property="evaporation">
+       <double>123.0</double>
+      </void>
+      <void property="eventHorizonRadius">
+       <double>100.0</double>
+      </void>
+      <void property="form">
+       <string>form</string>
+      </void>
+      <void property="luminosity">
+       <double>15.0</double>
+      </void>
+      <void property="mass">
+       <double>123.0</double>
+      </void>
+      <void property="name">
+       <string>2</string>
+      </void>
+      <void property="rotationSpeed">
+       <double>123.0</double>
+      </void>
+      <void property="size">
+       <double>123.0</double>
+      </void>
+      <void property="structure">
+       <string>structure</string>
+      </void>
+      <void property="xrayCoefficient">
+       <double>12.0</double>
+      </void>
+     </object>
+    </void>
+    <void property="elements">
+     <int>123</int>
+    </void>
+    <void property="form">
+     <string>123</string>
+    </void>
+    <void property="galaxyType">
+     <string>typeee</string>
+    </void>
+    <void property="mass">
+     <double>111.0</double>
+    </void>
+    <void property="name">
+     <string>2</string>
+    </void>
+    <void property="size">
+     <double>23.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="sample.hierarchy.Galaxy">
+    <void property="centerBlackHole">
+     <object class="sample.hierarchy.BlackHole">
+      <void property="color">
+       <string>red</string>
+      </void>
+      <void property="evaporation">
+       <double>123.0</double>
+      </void>
+      <void property="eventHorizonRadius">
+       <double>100.0</double>
+      </void>
+      <void property="form">
+       <string>form</string>
+      </void>
+      <void property="luminosity">
+       <double>15.0</double>
+      </void>
+      <void property="mass">
+       <double>123.0</double>
+      </void>
+      <void property="name">
+       <string>3</string>
+      </void>
+      <void property="rotationSpeed">
+       <double>123.0</double>
+      </void>
+      <void property="size">
+       <double>123.0</double>
+      </void>
+      <void property="structure">
+       <string>structure</string>
+      </void>
+      <void property="xrayCoefficient">
+       <double>12.0</double>
+      </void>
+     </object>
+    </void>
+    <void property="elements">
+     <int>123</int>
+    </void>
+    <void property="form">
+     <string>123</string>
+    </void>
+    <void property="galaxyType">
+     <string>typeee</string>
+    </void>
+    <void property="mass">
+     <double>222.0</double>
+    </void>
+    <void property="name">
+     <string>3</string>
+    </void>
+    <void property="size">
+     <double>3.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="sample.hierarchy.Galaxy">
+    <void property="centerBlackHole">
+     <object idref="BlackHole0"/>
+    </void>
+    <void property="elements">
+     <int>123</int>
+    </void>
+    <void property="form">
+     <string>123</string>
+    </void>
+    <void property="galaxyType">
+     <string>typeee</string>
+    </void>
+    <void property="mass">
+     <double>333.0</double>
+    </void>
+    <void property="name">
+     <string>4</string>
+    </void>
+    <void property="size">
+     <double>4.0</double>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

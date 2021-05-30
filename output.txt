@@ -1,0 +1,4 @@
+Name:1; Mass:123.0; Size:1.0; Form:123; GalaxyType:typeee; Elements:123; BlackHole Name:anme; Mass:123.0; Size:123.0; Form:form; Color:red; Structure:structure; XRay:12.0; Luminosity:15.0; Evaporation:123.0; EventHorizontRadius:100.0
+Name:2; Mass:111.0; Size:23.0; Form:123; GalaxyType:typeee; Elements:123; BlackHole Name:2; Mass:123.0; Size:123.0; Form:form; Color:red; Structure:structure; XRay:12.0; Luminosity:15.0; Evaporation:123.0; EventHorizontRadius:100.0
+Name:3; Mass:222.0; Size:3.0; Form:123; GalaxyType:typeee; Elements:123; BlackHole Name:3; Mass:123.0; Size:123.0; Form:form; Color:red; Structure:structure; XRay:12.0; Luminosity:15.0; Evaporation:123.0; EventHorizontRadius:100.0
+Name:4; Mass:333.0; Size:4.0; Form:123; GalaxyType:typeee; Elements:123; BlackHole Name:2; Mass:123.0; Size:123.0; Form:form; Color:red; Structure:structure; XRay:12.0; Luminosity:15.0; Evaporation:123.0; EventHorizontRadius:100.0
