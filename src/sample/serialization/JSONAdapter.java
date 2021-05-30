@@ -32,13 +32,12 @@ public class JSONAdapter implements Serialization {
     public void serialize(File file, LinkedList<Galaxy> list) {
         try {
             String temp = adaptXML.serializeToString(list);
-            System.out.println(temp);
+           /// System.out.println(temp);
             XmlMapper xmlMapper = new XmlMapper();
             Galaxy[] galaxies = xmlMapper.readValue(temp, Galaxy[].class);
             ObjectMapper objectMapper = new ObjectMapper();
             DefaultFileRW f = new DefaultFileRW();
             f.write(file, objectMapper.writeValueAsString(galaxies));
-            //     FileRW.getFileJob().write(file, objectMapper.writeValueAsString(galaxies));
         } catch (IOException e) {
             e.printStackTrace();
         }

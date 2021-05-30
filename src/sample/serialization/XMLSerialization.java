@@ -56,7 +56,7 @@ public class XMLSerialization implements Serialization {
 
 
     public String serializeToString(LinkedList<Galaxy> list) {
-        Galaxy array [] = new Galaxy[list.size()];
+        Galaxy[] array = new Galaxy[list.size()];
         Arrays.setAll(array, list::get);
         XmlMapper xmlMapper = new XmlMapper();
         try {
